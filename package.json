@@ -5,9 +5,10 @@
   "version": "1.40.1",
   "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "start": "next dev",
-    "build": "next build",
+    "dev": "yarn replace && next dev",
+    "start": "yarn replace && next dev",
+    "build": "yarn replace && next build",
+    "replace": "./scripts/replace-contracts.sh",
     "lint": "tsc && next lint",
     "lint:fix": "next lint --fix",
     "prettier": "prettier -w \"{src,cypress,mocks,scripts}/**/*.{ts,tsx,css,js}\"",
