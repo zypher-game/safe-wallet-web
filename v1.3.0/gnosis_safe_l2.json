@@ -4,7 +4,7 @@
     "version": "1.3.0",
     "deployments": {
         "canonical": {
-            "address": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E",
+            "address": "0xA72B709a9540f8c5E56f9C1b0AC1926b2CafdCb6",
             "codeHash": "0x21842597390c4c6e3c1239e434a682b054bd9548eee5e9b1d6a4482731023c0f"
         },
         "eip155": {
@@ -17,6 +17,7 @@
         }
     },
     "networkAddresses": {
+        "9901": "canonical",
         "1": ["canonical", "eip155"],
         "3": "canonical",
         "4": "canonical",
