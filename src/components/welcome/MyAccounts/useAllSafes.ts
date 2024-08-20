@@ -41,6 +41,11 @@ const useAllSafes = (): SafeItems | undefined => {
   const { configs } = useChains()
   const undeployedSafes = useAppSelector(selectUndeployedSafes)
 
+  console.log(allOwned, allOwnedLoading)
+  console.log(allAdded)
+  console.log(configs)
+  console.log(undeployedSafes)
+
   return useMemo<SafeItems | undefined>(() => {
     if (walletAddress && (allOwned === undefined || allOwnedLoading)) {
       return undefined

@@ -24,6 +24,7 @@ const WelcomeLogin = () => {
   useEffect(() => {
     if (!shouldRedirect) return
 
+    console.log(wallet, isLoaded, hasSafes)
     if (wallet && isLoaded) {
       if (hasSafes) {
         router.push({ pathname: AppRoutes.welcome.accounts, query: router.query })

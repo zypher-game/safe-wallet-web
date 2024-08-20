@@ -19544,3 +19544,6 @@ zodiac-roles-deployments@^2.2.5:
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/zodiac-roles-deployments/-/zodiac-roles-deployments-2.2.5.tgz#4739e54b82d48212711c16c2c4d9b185ea4cf6fe"
   integrity sha512-fv09LzKoL996W0pY7T2Na2hE3v5VQPQGN7/UckL+aTyBZRAyjz4ZKHbdQDLUzQAzp7l+6PC4JB2WnpeDanC3Hg==
+
+zytron-contracts@./v1.3.0:
+  version "0.0.0"

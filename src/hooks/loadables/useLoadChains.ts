@@ -5,6 +5,9 @@ import { logError, Errors } from '@/services/exceptions'
 
 const getConfigs = async (): Promise<ChainInfo[]> => {
   const data = await getChainsConfig()
+  for (const chain of data.results) {
+    !chain.chainLogoUri && (chain.chainLogoUri = '/images/9901.svg')
+  }
   return data.results || []
 }
 
